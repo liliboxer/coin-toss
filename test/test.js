@@ -1,3 +1,5 @@
+import getHeadsOrTails from '../src/get-heads-or-tails.js';
+
 const test = QUnit.test;
 
 test('time to test a function', function(assert) {
