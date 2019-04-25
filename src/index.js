@@ -8,16 +8,16 @@ const messageResults = document.getElementById('message-results');
 const headsChoice = document.getElementById('heads-choice');
 const tailsChoice = document.getElementById('tails-choice');
 
+
 // initialize
 
 
 // subscribe - > add event listeners 
 flipButton.addEventListener('click', () => {
     const randomNumber = Math.random();
-    const side = getHeadsOrTails(randomNumber);
+    const flip = getHeadsOrTails(randomNumber);
 
-    console.log(randomNumber, side);
 
-    
+
 }); 
 
