@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <title>Coin Toss</title>
 </head>
+
 <body>
+    <h1>Let's Flip A Panda!</h1>
+
+    <p id='results'>
+        <span>Won: 0</span><span>Lost: 0</span>
+    </p>
+
+    <p>
+        <img src="./assets/face.png" alt="panda face">
+    </p>
+
+    <p id='message-results'>Place a bet and flip the panda!</p>
+
+    <p>
+        <label>
+            <input id='heads-choice' type='radio' name='coin-side' checked> Heads
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input id='tails-choice' type="radio" name='coin-side'> Tails
+        </label>
+    </p>
+
+    <p>
+        <button id='flip-button'>Flip Me</button>
+    </p>
     
 </body>
 </html>
