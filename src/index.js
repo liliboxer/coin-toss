@@ -19,6 +19,8 @@ flipButton.addEventListener('click', () => {
     const randomNumber = Math.random();
     const flip = getHeadsOrTails(randomNumber);
     
+    coinImage.src = './assets/' + flip + '.png';
+
     let guess = '';
     if(headsChoice.checked) {
         guess = 'heads';
